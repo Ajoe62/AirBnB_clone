@@ -11,3 +11,11 @@ Data (python objects) generated are stored in a json file and can be accessed wi
 The interface of the application is just like the Bash shell except that this has a limited number of accepted commands that were solely defined for the purposes of the usage of the AirBnB website.
 
 This command line interpreter serves as the frontend of the web app where users can interact with the backend which was developed with python OOP programming.
+
+## Available commands and what they do
+
+| Command    |              Description                   |
+|:----------:|:-------------------------------------------|
+| EOF or     |  Exit the program                          |
+  quit
+|:----------:|:-------------------------------------------|
