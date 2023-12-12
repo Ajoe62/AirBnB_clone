@@ -19,5 +19,4 @@ This command line interpreter serves as the frontend of the web app where users 
 | EOF or     |  Exit the program                                                                                                    |
   quit
 | Usage      |  By itself                                                                                                           |
-| Help       |  Provides a  text describing how to use a command                                                                    |     | create     |  Creates a new instance of a valid Class, saves it (to the JSON file) and prints the id. Valid classes are:
-                BaseModel, User, State, City, Amenity, Place, Review.                                                               |     
+| Help       |  Provides a  text describing how to use a command                                                                    |     | create     |  Creates a new instance of a valid Class, saves it (to the JSON file) and prints the id.                                                   Valid classes are: BaseModel, User, State, City, Amenity, Place, Review.                                                               |                                                                                                                      |
