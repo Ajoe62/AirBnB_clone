@@ -20,3 +20,13 @@ This command line interpreter serves as the frontend of the web app where users 
   quit
 | Usage      |  By itself                                                                                                           |
 | Help       |  Provides a  text describing how to use a command                                                                    |     | create     |  Creates a new instance of a valid Class, saves it (to the JSON file) and prints the id.                                                   Valid classes are: BaseModel, User, State, City, Amenity, Place, Review.                                                               |                                                                                                                      |
+
+## Format of Command
+
+In order to give commands to the console, these will need to be piped through an echo in case of Non-interactive mode.
+
+In Interactive Mode the commands will need to be written with a keyboard when the prompt appears and will be recognized when an enter key is pressed (new line). As soon as this happens, the console will attempt to execute the command through several means or will show an error message if the command didn't run successfully. In this mode, the console can be exited using the CTRL + D combination, CTRL + C, or the command quit or EOF.
+
+## Authors
+
+Joseph_IZ Akharume || ijeborjoe@gmail.com
