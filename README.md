@@ -27,6 +27,15 @@ In order to give commands to the console, these will need to be piped through an
 
 In Interactive Mode the commands will need to be written with a keyboard when the prompt appears and will be recognized when an enter key is pressed (new line). As soon as this happens, the console will attempt to execute the command through several means or will show an error message if the command didn't run successfully. In this mode, the console can be exited using the CTRL + D combination, CTRL + C, or the command quit or EOF.
 
+## Testing
+
+Unittests for the AirBnB project are defined in the tests folder. To run the entire test suite simultaneously, execute the following command:
+
+$ python3 unittest -m discover tests
+Alternatively, you can specify a single test file to run at a time:
+
+$ python3 unittest -m tests/test_console.py
+
 ## Authors
 
 Joseph_IZ Akharume || ijeborjoe@gmail.com
